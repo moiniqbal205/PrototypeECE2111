@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+nav {
+    padding-bottom: 65px;
+    background: #006dae;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+#highFilt {
+    background-image: linear-gradient(to right, #5c0000, #ea0000);
+    color: #fff;
+}
+
+#lowFilt {
+    background-image: linear-gradient(to right, #062900, #00a500);
+    color: #fff;
+}
+
+audio {
+    width: 225px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#imgOriginal, #imgHighP, #imgLowP {
+    height: 300px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    padding: 4px;
+}
+
+#myModal {
+    animation: fadeIn 0.75s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    background: #006dae;
+}
